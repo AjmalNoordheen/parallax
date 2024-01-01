@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #f9f9f9;
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    padding:30px 100px;
+    justify-content:flex-start;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 2em;
+    color: rgb(66, 225, 159);
+    pointer-events: none;
+    margin-right: 270px;
+}
+
+.navigator a{   
+
+    color:rgb(66, 225, 159) ;
+    text-decoration: none;
+    border-radius: 20px;
+    margin:0 10px;
+    padding: 6px 15px;
+}
+
+.navigator a:hover,.navigator a.active{
+    background:rgb(66, 225, 159);
+    color: white;
+}
+
+.parallex{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.text{
+    position: absolute;
+    color: rgb(11, 11, 11);
+    font-size: 5em;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(97, 94, 94);
+    /* mix-blend-mode: screen; */
+}
+.parallex img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+
+.sec{
+    position: relative;
+    background-color: #003329;
+    padding: 100px;
+    margin-top: 100px;
+
+}
+
+.sec h2{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 3em;
+}
+
+.sec p{
+    color: aliceblue;
+    font-size: 1em;
+    font-weight: 300;
+}
